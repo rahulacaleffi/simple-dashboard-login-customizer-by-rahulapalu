@@ -1,8 +1,8 @@
-=== Custom WP Dashboard With Login Page ===
+=== Custom WP Dashboard With Login ===
 Contributors: rahulacaleffi
 Tags: dashboard, login, customization, branding, admin
 Requires at least: 6.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -12,7 +12,7 @@ Customize your WordPress dashboard and login page with your own branding, logo, 
 
 == Description ==
 
-Custom WP Dashboard With Login Page allows you to fully customize the appearance of your WordPress admin dashboard and login page. Add your own branding, logos, and customize the look and feel to match your company or client's brand identity.
+Custom WP Dashboard With Login allows you to fully customize the appearance of your WordPress admin dashboard and login page. Add your own branding, logos, and customize the look and feel to match your company or client's brand identity.
 
 = Features =
 
@@ -85,4 +85,4 @@ Yes, the plugin includes full internationalization support and can be translated
 == Upgrade Notice ==
 
 = 1.0.0 =
-Initial release of Custom WP Dashboard With Login Page.
+Initial release of Custom WP Dashboard With Login.

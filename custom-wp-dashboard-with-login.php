@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Custom WP Dashboard With Login Page
+ * Custom WP Dashboard With Login
  *
  * @package           Custom_WP_Dashboard
  * @author            Rahula Palu
  * @copyright         2025 Rahula Palu
  * @license           GPL-2.0-or-later
  *
- * Plugin Name:       Custom WP Dashboard With Login Page
+ * Plugin Name:       Custom WP Dashboard With Login
  * Plugin URI:        https://github.com/rahulacaleffi/custom-wp-dashboard-with-login
  * Description:       Customize your WordPress dashboard and login page with your own branding, logo, and styling.
  * Version:           1.0.0
@@ -44,21 +44,10 @@ class Custom_Dashboard_Plugin
      */
     public function __construct()
     {
-        add_action('plugins_loaded', array($this, 'load_textdomain'));
         add_action('plugins_loaded', array($this, 'init'));
 
         // Add settings link to plugins page
         add_filter('plugin_action_links_' . plugin_basename(__FILE__), array($this, 'add_plugin_action_links'));
-    }
-
-    /**
-     * Loads translations for the plugin
-     *
-     * @since 1.0.0
-     */
-    public function load_textdomain()
-    {
-        load_plugin_textdomain('custom-wp-dashboard-with-login', false, dirname(plugin_basename(__FILE__)) . '/languages');
     }
 
     /**

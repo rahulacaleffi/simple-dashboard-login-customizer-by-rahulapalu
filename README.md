@@ -1,4 +1,4 @@
-# Custom WP Dashboard With Login Page
+# Custom WP Dashboard With Login
 
 A WordPress plugin that allows you to customize your WordPress dashboard and login page with your own branding, logo, and styling.
 
