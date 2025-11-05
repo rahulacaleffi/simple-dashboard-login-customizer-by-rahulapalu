@@ -64,7 +64,6 @@ class Custom_Dashboard_Plugin
         new Custom_Dashboard_Settings();
         new Custom_Dashboard_Template();
         new Custom_Dashboard_Login();
-        new Custom_Dashboard_Hide_Menu_Items();
     }
 
     /**
@@ -81,7 +80,6 @@ class Custom_Dashboard_Plugin
             'class-settings.php',
             'class-dashboard-template.php',
             'class-custom-login-page.php',
-            'class-hide-menu-items.php',
         );
 
         foreach ($files as $file) {
